@@ -1,0 +1,70 @@
+---------------
+Router
+--------------------
+1.npm install react-router-dom*
+
+2.app,jsx
+	<BrowserRouter>
+		<App/>
+	<BrowserRouter/>
+
+	
+3.Dans app.jsx
+
+<Routes>
+	<Route path='/home' element={<component1/>} />
+	<Route path='/home1' element={<component2/>} />
+	<Route path='/home2' element={<component3/>} />
+<Routes/>
+
+4.Ancrage
+
+<Link to="/home"> Home </Link>
+
+5.imbrication
+	
+	a. Dans path en supprimant /
+	<Routes>
+		<Route path='/user' element={<component1/>} >
+			<Route path='profile' element={<profil/>} /> // user/profile
+			<Route path='account' element={<profil/>} />  user/account
+		<Route/
+	
+	<Routes/>
+	
+	b.Dans l'enfant ou le component en ajoutant outlet
+		<Link to="profile"> Home </Link>
+		<Link to="account"> Home </Link>
+		<outlet/>
+		
+		
+6.404 not found ; il se situe vers le bas dans le Routes
+a<Route path='*' element={<page404/>} />
+
+
+7.Avec params
+	. <Route path='/home/:id' element={<component1/>} /> 
+			OU
+	. <Route path='/home'  /> 
+			<Route path=':id' element={<component1/>} /> 
+		<Route>
+		
+	.get parametre
+	
+		const { id } =useParams();
+
+8.Redirection
+	const navigate = useNavigate();
+	
+	function goHome(){
+		navigate('/home)
+	}
+
+9.location
+	let location = useLocation()
+		
+	get les parmetre
+	
+
+
+

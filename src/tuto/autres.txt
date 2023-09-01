@@ -1,0 +1,6 @@
+<React.StrictMode> est un composant spécifique à React qui peut être utilisé 
+pour mettre en mode strict le rendu et le comportement de votre application React. 
+Il est généralement utilisé dans l'enveloppe racine de votre application pour aider 
+les développeurs à détecter et à résoudre les problèmes potentiels dans leur code.
+
+.Desactiver lorsque la produciton
