@@ -1,0 +1,129 @@
+.container-curved{
+    background-color: #DC3131;
+    text-align: left;
+    color:#fff;
+}
+
+.container-curved h1{
+    font-size: 30px;
+}
+
+.name-container{
+    position: relative;
+    top: 30px;
+    left: 370px;
+    font-size: 30px;
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; 
+    width: 420px; 
+
+}
+
+.name-container span{
+    font-weight: 600;
+}
+
+.name-title{
+    margin: 15px 0 15px 0;
+    font-size: 20px;
+    background-color : #FDC435 ;
+    color: #1E1E1E;
+    font-family: Roboto;
+    font-size: 18.387px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    padding: 8.172px 24.516px;
+    text-align: center;
+}
+
+.img-home{
+    position: absolute;
+    right: 0px;
+    top: 100px;
+
+}
+
+.img-home img {
+    width: 35vw;
+}
+
+.navbar-nav a {
+    color:#FFF;
+}
+
+.about-paragraphe{
+    color: #050505;
+    text-align: justify;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.682%
+}
+
+.about-container{
+    margin:15px
+}
+
+.about-label{
+    color: #DC3131;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.291px;
+    text-align: left !important;
+}
+
+.about-pourcent{
+    color: #DC3131;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 3.927px;
+}
+
+.btn-custom {
+    background-color: #FDC435 !important;
+    border-color: #FDC435 !important;
+    padding: 10px;
+    color: #000; 
+  }
+  
+  .btn-custom:hover {
+    background-color: #DC3131 !important;
+    border-color: #DC3131 !important;
+    color: #fff !important;
+  }
+
+  .title-component
+  {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 22.946px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 127.9%; 
+    letter-spacing: 8.154px;
+  }
+
+  .title-competences{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18.743px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.537px;
+    text-align: center;
+  }
