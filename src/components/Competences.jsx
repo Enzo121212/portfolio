@@ -16,10 +16,11 @@ const Competences = () => {
     { title: "laravel", path: "laravel.png" },
     { title: "git", path: "git.png" },
     { title: "sql", path: "serveur-sql.png" },
+    { title: "figma", path: "figma.png" },
   ];
   return (
     <>
-      <Container>
+      <Container data-aos="zoom-in-up" id="competences">
         <Title name="COMPETENCES" widthTitle="400" />
         <Row>
           {competences.map((competence, index) => (
@@ -30,6 +31,7 @@ const Competences = () => {
                     variant="top"
                     src={`images/${competence.path}`} // Utilisation de l'attribut path de l'objet
                     style={{ width: "150px", height: "150px" }}
+                    alt="Competences"
                   />
                 </div>
                 <Card.Body>

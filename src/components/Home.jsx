@@ -10,10 +10,9 @@ export default function Home() {
     <>
       <div className="container-curved">
       <Navbar >
-        {/* <Navbar.Brand href="#home">PortFolio</Navbar.Brand>  */}
           <Container className="justify-content-end text-white">
             <Nav >
-              <Nav.Link href="#propos">A propos</Nav.Link>
+              <Nav.Link href="#about">A propos</Nav.Link>
               <Nav.Link href="#competences">Competences</Nav.Link>
               <Nav.Link href="#projet">Projets</Nav.Link>
               <Nav.Link href="#contact">Contacts</Nav.Link>

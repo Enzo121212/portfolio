@@ -12,11 +12,11 @@ export default function About() {
   ];
   return (
     <>
-      <Container className="text-center">
+      <Container data-aos="fade-up" className="text-center " id="about" >
         <Title name="A PROPOS" widthTitle="300" />
         <Row className="about-container ">
           <Col sm={6}>
-            <img src="/images/done.png" alt="Done" />
+            <img src="/images/done.png" alt="Done" width="100%" />
           </Col>
           <Col sm={6} className="mt-2">
             <p className="about-paragraphe mx-5 ">
@@ -49,7 +49,7 @@ export default function About() {
               ))}
             </div>
             <div className="d-flex justify-content-start mx-5 ">
-              <button type="button" className="btn btn-custom">
+              <button className="btn btn-custom">
                 Telecharger CV
               </button>
             </div>
