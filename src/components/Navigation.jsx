@@ -6,6 +6,8 @@ import ScrollToTop from './ScrollToTop';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Footer from "./Footer";
+import BackgroundWithText from "./BackgroundWithText";
+import Projects from "./Projects"
 
 const Navigation = () => {
 
@@ -19,7 +21,9 @@ const Navigation = () => {
         <ScrollToTop/>
         <Home/>
         <About/>
+        <BackgroundWithText/>
         <Competences/>
+        <Projects/>
         <Footer/>
   </>;
 };

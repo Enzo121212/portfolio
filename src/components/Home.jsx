@@ -1,4 +1,4 @@
-import React from 'react'
+import  {React, useState, useEffect } from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -6,19 +6,36 @@ import '../assets/style.css';
 
 export default function Home() {
 
+  const [open, setOpen] = useState(false)
+  // const [scrollY, setScrollY] = useState(0)
+  const [navBarColor, setNavBarColor] = useState(false)
+
+
+  const listenScrollEvent = () => {
+      window.scrollY > 10 ? setNavBarColor(true) : setNavBarColor(false);
+  };
+
+  useEffect(() => {
+      window.addEventListener("scroll", listenScrollEvent);
+      return () => {
+          window.removeEventListener("scroll", listenScrollEvent);
+      };
+  }, []);
+
   return (
+    
     <>
       <div className="container-curved">
-      <Navbar >
-          <Container className="justify-content-end text-white">
+        <Navbar className={` ${navBarColor ? "bg-nav  fixed-top" : "bg-transparent"} `}>
+            <Container className="justify-content-end text-white">
             <Nav >
-              <Nav.Link href="#about">A propos</Nav.Link>
-              <Nav.Link href="#competences">Competences</Nav.Link>
-              <Nav.Link href="#projet">Projets</Nav.Link>
-              <Nav.Link href="#contact">Contacts</Nav.Link>
-            </Nav>
-          </Container>
-      </Navbar>
+                <Nav.Link href="#about">A propos</Nav.Link>
+                <Nav.Link href="#competences">Competences</Nav.Link>
+                <Nav.Link href="#projet">Projets</Nav.Link>
+                <Nav.Link href="#contact">Contacts</Nav.Link>
+              </Nav>
+            </Container>
+        </Navbar>
         <br />
         <div className="name-container">
           <div>

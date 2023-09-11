@@ -10,6 +10,11 @@ export default function About() {
     { label: "Web Developpement", pourcent: "98" },
     { label: "App Developpement", pourcent: "96" },
   ];
+
+  const handleDownloadClick = () => {
+    window.open('/pdf/cv.pdf');
+  };
+
   return (
     <>
       <Container data-aos="fade-up" className="text-center " id="about" >
@@ -19,12 +24,12 @@ export default function About() {
             <img src="/images/done.png" alt="Done" width="100%" />
           </Col>
           <Col sm={6} className="mt-2">
-            <p className="about-paragraphe mx-5 ">
+            {/* <p className="about-paragraphe mx-5 ">
               Je suis un développeur passionné et créatif spécialisé dans le
               développement fullstack. Mon parcours dans le monde du
               développement a été marqué par une fascination pour la création de
               solutions techniques innovantes et conviviales.
-            </p>
+            </p> */}
             <br />
             <div>
               {experiences.map((item, index) => (
@@ -49,7 +54,7 @@ export default function About() {
               ))}
             </div>
             <div className="d-flex justify-content-start mx-5 ">
-              <button className="btn btn-custom">
+              <button className="btn btn-custom" onClick={handleDownloadClick}>
                 Telecharger CV
               </button>
             </div>

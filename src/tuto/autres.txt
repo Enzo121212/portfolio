@@ -4,3 +4,7 @@ Il est généralement utilisé dans l'enveloppe racine de votre application pour
 les développeurs à détecter et à résoudre les problèmes potentiels dans leur code.
 
 .Desactiver lorsque la produciton
+
+
+
+style={{ width: '150px' }} style directly in div

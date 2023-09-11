@@ -20,7 +20,7 @@ const Competences = () => {
   ];
   return (
     <>
-      <Container data-aos="zoom-in-up" id="competences">
+      <Container data-aos="zoom-in-up" id="competences" className="mt-2">
         <Title name="COMPETENCES" widthTitle="400" />
         <Row>
           {competences.map((competence, index) => (
