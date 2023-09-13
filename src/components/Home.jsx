@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import '../assets/style.css';
+import {linkedinLink , facebookLink} from '../assets/Lien'
 
 export default function Home() {
 
@@ -23,18 +24,21 @@ export default function Home() {
   }, []);
 
   return (
-    
     <>
       <div className="container-curved">
-        <Navbar className={` ${navBarColor ? "bg-nav  fixed-top" : "bg-transparent"} `}>
-            <Container className="justify-content-end text-white">
-            <Nav >
-                <Nav.Link href="#about">A propos</Nav.Link>
-                <Nav.Link href="#competences">Competences</Nav.Link>
-                <Nav.Link href="#projet">Projets</Nav.Link>
-                <Nav.Link href="#contact">Contacts</Nav.Link>
-              </Nav>
-            </Container>
+        <Navbar
+          className={` ${
+            navBarColor ? "bg-nav  fixed-top" : "bg-transparent"
+          } `}
+        >
+          <Container className="justify-content-end text-white">
+            <Nav>
+              <Nav.Link href="#about">A propos</Nav.Link>
+              <Nav.Link href="#competences">Competences</Nav.Link>
+              <Nav.Link href="#projet">Projets</Nav.Link>
+              <Nav.Link href="#contact">Contacts</Nav.Link>
+            </Nav>
+          </Container>
         </Navbar>
         <br />
         <div className="name-container">
@@ -42,9 +46,14 @@ export default function Home() {
             Anjaratiana Fifaliana <br /> RANDRIAMALALA
           </div>
           <div className="name-title">DEVELLOPEUR FULL-STACK</div>
-          <div className='text-center'>
-            <img src="/images/fb.png" alt="Facebook" width="50" /> &nbsp;
-            <img src="/images/linkedin.png" alt="Facebook" width="50" />
+          <div className="text-center">
+            <a href={facebookLink} target="_blank" rel="noopener noreferrer">
+                <img src="/images/fb.png" alt="Facebook" width="50" />
+              </a>
+              &nbsp;
+              <a href={linkedinLink} target="_blank" rel="noopener noreferrer">
+                <img src="/images/linkedin.png" alt="Facebook" width="50" />
+              </a>
           </div>
         </div>
 
@@ -52,16 +61,26 @@ export default function Home() {
           <img src="/images/programming.png" alt="Image home" />
         </div>
 
-        <div className='text-center mobile-show'>
-           <h1>  Anjaratiana Fifaliana <br /> RANDRIAMALALA </h1>
-            <div className="name-title name-title w-75 m-auto my-3">DEVELLOPEUR FULL-STACK</div>
-          <div className='text-center'>
-            <img src="/images/fb.png" alt="Facebook" width="50" /> &nbsp;
-            <img src="/images/linkedin.png" alt="Facebook" width="50" />
+        <div className="text-center mobile-show">
+          <h1>
+            {" "}
+            Anjaratiana Fifaliana <br /> RANDRIAMALALA{" "}
+          </h1>
+          <div className="name-title name-title w-75 m-auto my-3">
+            DEVELLOPEUR FULL-STACK
+          </div>
+          <div className="text-center">
+            <a href={facebookLink} target="_blank" rel="noopener noreferrer">
+              <img src="/images/fb.png" alt="Facebook" width="50" />
+            </a>
+            &nbsp;
+            <a href={linkedinLink} target="_blank" rel="noopener noreferrer">
+              <img src="/images/linkedin.png" alt="Facebook" width="50" />
+            </a>
           </div>
         </div>
 
-        <div >
+        <div>
           <svg viewBox="0 0 1440 320">
             <path
               fill="#fff"
