@@ -8,6 +8,7 @@ import 'aos/dist/aos.css';
 import Footer from "./Footer";
 import BackgroundWithText from "./BackgroundWithText";
 import Projects from "./Projects"
+import Services from "./Services";
 
 const Navigation = () => {
 
@@ -24,6 +25,7 @@ const Navigation = () => {
         <BackgroundWithText/>
         <Competences/>
         <Projects/>
+        <Services/>
         <Footer/>
   </>;
 };

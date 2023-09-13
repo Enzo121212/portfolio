@@ -12,7 +12,7 @@ export default function About() {
   ];
 
   const handleDownloadClick = () => {
-    window.open('/pdf/cv.pdf');
+    window.open('/pdf/CV_anjaratiana.pdf');
   };
 
   return (
@@ -20,10 +20,10 @@ export default function About() {
       <Container data-aos="fade-up" className="text-center " id="about" >
         <Title name="A PROPOS" widthTitle="300" />
         <Row className="about-container ">
-          <Col sm={6}>
+          <Col sm={12} md={6}>
             <img src="/images/done.png" alt="Done" width="100%" />
           </Col>
-          <Col sm={6} className="mt-2">
+          <Col sm={12} md={6} className="mt-2">
             {/* <p className="about-paragraphe mx-5 ">
               Je suis un développeur passionné et créatif spécialisé dans le
               développement fullstack. Mon parcours dans le monde du

@@ -42,15 +42,23 @@ export default function Home() {
             Anjaratiana Fifaliana <br /> RANDRIAMALALA
           </div>
           <div className="name-title">DEVELLOPEUR FULL-STACK</div>
-
           <div className='text-center'>
             <img src="/images/fb.png" alt="Facebook" width="50" /> &nbsp;
             <img src="/images/linkedin.png" alt="Facebook" width="50" />
           </div>
         </div>
 
-        <div className="img-home">
+        <div className="img-home ">
           <img src="/images/programming.png" alt="Image home" />
+        </div>
+
+        <div className='text-center mobile-show'>
+           <h1>  Anjaratiana Fifaliana <br /> RANDRIAMALALA </h1>
+            <div className="name-title name-title w-75 m-auto my-3">DEVELLOPEUR FULL-STACK</div>
+          <div className='text-center'>
+            <img src="/images/fb.png" alt="Facebook" width="50" /> &nbsp;
+            <img src="/images/linkedin.png" alt="Facebook" width="50" />
+          </div>
         </div>
 
         <div >
