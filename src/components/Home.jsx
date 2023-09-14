@@ -7,7 +7,7 @@ import {linkedinLink , facebookLink} from '../assets/Lien'
 
 export default function Home() {
 
-  const [open, setOpen] = useState(false)
+  // const [open, setOpen] = useState(false)
   // const [scrollY, setScrollY] = useState(0)
   const [navBarColor, setNavBarColor] = useState(false)
 

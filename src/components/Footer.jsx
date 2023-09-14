@@ -1,7 +1,5 @@
 import React from "react";
 import "../assets/style.css";
-import { Container } from "react-bootstrap";
-import { AiFillFacebook } from "react-icons/ai";
 import {linkedinLink , facebookLink} from '../assets/Lien'
 
 const Footer = () => {

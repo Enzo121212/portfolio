@@ -1,6 +1,6 @@
 import React from 'react'
-import Title from './Title'
-import { Container, Row, Col, Card } from "react-bootstrap";
+// import Title from './Title'
+// import { Container, Row, Col, Card } from "react-bootstrap";
 const Projects = () => {
     const projects = [
         // { title: "Gestion livraison", description:"Angular 14 , mongoDB", path: "html.png" },
