@@ -17,7 +17,7 @@ export default function Services() {
           <div
             className="section-header text-center wow zoomIn"
           >
-            <p>Qualité</p>
+            <p>Qualités</p>
             <h2>Mes qualités</h2>
           </div>
           
