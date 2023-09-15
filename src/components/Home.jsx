@@ -79,7 +79,7 @@ export default function Home() {
             </a>
             &nbsp;
             <a href={linkedinLink} target="_blank" rel="noopener noreferrer">
-              <img src="/images/linkedin.png" alt="Facebook" width="50" />
+              <img src="/images/linkedin.png" alt="Linkedin" width="50" />
             </a>
             &nbsp;
               <a href={skypeLink} target="_blank" rel="noopener noreferrer">
