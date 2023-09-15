@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import '../assets/style.css';
-import {linkedinLink , facebookLink} from '../assets/Lien'
+import {linkedinLink , facebookLink , skypeLink} from '../assets/Lien'
 
 export default function Home() {
 
@@ -54,6 +54,10 @@ export default function Home() {
               <a href={linkedinLink} target="_blank" rel="noopener noreferrer">
                 <img src="/images/linkedin.png" alt="Facebook" width="50" />
               </a>
+              &nbsp;
+              <a href={skypeLink} target="_blank" rel="noopener noreferrer">
+                <img src="/images/skype.png" alt="Skype" width="50" />
+              </a>
           </div>
         </div>
 
@@ -77,6 +81,10 @@ export default function Home() {
             <a href={linkedinLink} target="_blank" rel="noopener noreferrer">
               <img src="/images/linkedin.png" alt="Facebook" width="50" />
             </a>
+            &nbsp;
+              <a href={skypeLink} target="_blank" rel="noopener noreferrer">
+                <img src="/images/skype.png" alt="Skype" width="50" />
+              </a>
           </div>
         </div>
 

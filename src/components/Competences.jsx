@@ -14,6 +14,7 @@ const Competences = () => {
     { title: "angular", path: "angular.png" },
     { title: "react", path: "react.png" },
     { title: "laravel", path: "laravel.png" },
+    { title: "C#", path: "csharp.png" },
     { title: "git", path: "git.png" },
     { title: "sql", path: "serveur-sql.png" },
     { title: "figma", path: "figma.png" },
@@ -31,7 +32,7 @@ const Competences = () => {
                     variant="top"
                     src={`images/${competence.path}`} // Utilisation de l'attribut path de l'objet
                     style={{ width: "150px", height: "150px" }}
-                    alt="Competences"
+                    alt={competence.title.toUpperCase()}
                   />
                 </div>
                 <Card.Body>

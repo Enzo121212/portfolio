@@ -1,6 +1,6 @@
 import React from "react";
 import "../assets/style.css";
-import {linkedinLink , facebookLink} from '../assets/Lien'
+import {linkedinLink , facebookLink, skypeLink} from '../assets/Lien'
 
 const Footer = () => {
 
@@ -23,6 +23,10 @@ const Footer = () => {
             <a href={linkedinLink} target="_blank" rel="noopener noreferrer">
               <img src="/images/linkedin.png" alt="linkedin" width="50" />
             </a>
+            &nbsp;&nbsp;
+              <a href={skypeLink} target="_blank" rel="noopener noreferrer">
+                <img src="/images/skype.png" alt="Skype" width="50" />
+              </a>
             
           </p>
           <p>Antananarivo,Madagascar</p>
