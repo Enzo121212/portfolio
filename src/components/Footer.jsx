@@ -6,7 +6,7 @@ const Footer = () => {
 
   return (
     <>
-      <div className="footer">
+      <div className="footer" id="contact">
         <svg viewBox="0 0 1440 320">
           <path
             fill="#fff"

@@ -18,6 +18,7 @@ const Competences = () => {
     { title: "git", path: "git.png" },
     { title: "sql", path: "serveur-sql.png" },
     { title: "figma", path: "figma.png" },
+    { title: "java", path: "java.png" },
   ];
   return (
     <>

@@ -13,7 +13,7 @@ import Navigation from './components/Navigation';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <BrowserRouter>
+  <BrowserRouter>
     <Routes>
       <Route path="/home" element={<Navigation />} />
       <Route path="/" element={<Navigate to="/home" replace />} />

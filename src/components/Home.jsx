@@ -35,7 +35,7 @@ export default function Home() {
             <Nav>
               <Nav.Link href="#about">A propos</Nav.Link>
               <Nav.Link href="#competences">Competences</Nav.Link>
-              <Nav.Link href="#projet">Projets</Nav.Link>
+              <Nav.Link href="#portfolio">Projets</Nav.Link>
               <Nav.Link href="#contact">Contacts</Nav.Link>
             </Nav>
           </Container>
