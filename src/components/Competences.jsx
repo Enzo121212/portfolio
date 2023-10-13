@@ -19,6 +19,7 @@ const Competences = () => {
     { title: "sql", path: "serveur-sql.png" },
     { title: "figma", path: "figma.png" },
     { title: "java", path: "java.png" },
+    { title: "python", path: "python.png" },
   ];
   return (
     <>

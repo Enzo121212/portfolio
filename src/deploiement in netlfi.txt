@@ -1,0 +1,21 @@
+
+
+Pour deployer un react en netlify
+
+1- npm run build
+
+2 npm install -g netlify-cli
+
+3.creation fichier netlify.toml avec 
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
+
+
+4. git commit pull push 
+
+
+3 netlify deploy
+
+ 
