@@ -18,7 +18,8 @@ const Navigation = () => {
     });
   }, []);
 
-  return <>
+  return (
+  <div className='disable-selection'>
         <ScrollToTop/>
         <Home/>
         <About/>
@@ -27,7 +28,7 @@ const Navigation = () => {
         <Projects/>
         <Services/>
         <Footer/>
-  </>;
+  </div>);
 };
 
 export default Navigation;
